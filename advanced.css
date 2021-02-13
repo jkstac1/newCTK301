@@ -1,0 +1,97 @@
+body { font-size: 200%; }
+
+.pxfont { font-size: 16px }
+
+.ptfont {font-size: 16pt; }
+
+.emfont { font-size: 1em; }
+    
+.pxbox {
+    border: 1px solid #ff0000;
+    padding: 10px;
+    margin 20px;
+}
+.embox {
+    border: 1px solid #ff0000;
+    padding: 1em
+    margin: 2em;
+    }
+
+.percentbox {
+    border: 1px solid #ff0000;
+    padding: 5%;
+    margin: 10%;
+}
+
+h1{
+    border-bottom: 1px solid #000000;
+    margin-bottom: 60px; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    padding: 0;
+    margin: 10px;
+    width: 150px;
+    color: #ffffff;
+}
+
+nav li a:hover {
+    background-color: #00ff00;
+}
+
+nav li a {
+    color: #ffffff;
+    display: block;
+    border: 1px solid #000000;
+    padding: 10px;
+    background-color: #cc0000;
+    background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+}   
+
+.pixelwidth {
+    border: 1px solid #ff0000;
+    width 100px;
+}
+
+.percentwidth {
+    border: 1px solid #ff0000;
+    width: 50px
+}
+
+.blocking {
+    display: block;
+}
+
+.bordertop {
+    border-top: 1px solid #ff0000;
+}
+
+.borderbottom {
+    border-bottom: 1px solid #ff0000;
+    padding: 20px
+}
+
+.borderright {
+    border-right: 1px solid #ff0000;
+} 
+
+.borderleft {
+    border-left: 1px solid #ff0000;
+}
+
+.rainbowborder {
+    border-top: 5px solid #ff0000;
+    border-bottom: 10px solid #00ff00;
+    border-right: 15px solid #0000ff;
+    border-left: 20px solid #ff00ff;
+}
+
+.blockimg {
+  display: block;
+}
