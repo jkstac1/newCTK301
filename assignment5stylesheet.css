@@ -1,0 +1,50 @@
+body {
+    background-image: url(assignment5/Soul.png);
+    background-repeat: no-repeat;
+    padding: 1px;
+    font-family: Helvetica;
+    color: #3a9be0;
+    text-align: center;
+}
+
+.title {
+    font-size: 12px;
+    text-align: right;
+    color: #ffffff;
+}
+
+.movie {
+    font-size: 100px;
+    line-height: 395px;
+    font-family: Impact, fantasy;
+
+    
+}
+
+.description {
+    font-size: 15px;
+    margin-top: 400px;
+}
+
+.color {
+    color: #f5a940;
+}
+    
+.small {
+        font-size: 8px;
+    }
+
+a {
+    line-height: 50px;
+    color: #3a9be0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #f5a940;
+}
+
+a:hover {
+    color: #3a9be0;
+}
