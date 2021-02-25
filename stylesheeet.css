@@ -86,7 +86,8 @@ nav li a {
 
 .color {
    color: #ff0000;
-    font-weight: bold;
+   font-weight: bold;
+   font-stretch: expanded;
 }
 
 #wrapper {
