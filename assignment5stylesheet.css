@@ -41,9 +41,9 @@ a {
 }
 
 a:visited {
-    color: #f5a940;
+    color: ##3a9be0;
 }
 
 a:hover {
-    color: #3a9be0;
+    color: #f5a940;
 }
