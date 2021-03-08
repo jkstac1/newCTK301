@@ -1,0 +1,102 @@
+body {
+    background-color: #BFBEBE;
+}
+
+
+#wrapper {
+    margin: 1em auto;
+    width: 900px;
+    border: 3px solid #3F7FBF;
+    background-color: #ffffff;
+    display: grid;
+}
+.color {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: Helvetica;
+    color: #ffffff; 
+    grid-column: span 12;
+    padding: 25px;
+    font-style: italic;
+    font-weight: normal;
+    background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+}
+
+h2 {
+    font: helvetica;
+    border-bottom: 3.5px solid #3F7FBF;
+    margin-bottom: 30px; 
+    margin-left: 25px;
+    text-align: left;
+    padding: 10px;
+    color: #3F7FBF;
+    grid-column: span 12;
+}
+
+nav {
+    grid-column: span 12;
+    font-family: Helvetica;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    width: 221px;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 12px;
+    
+    
+}
+
+nav li a:hover {
+    background-color: #ffff00;
+}
+
+nav li a {
+    grid-column: span 12;
+    color: #ffffff;
+    display: block;
+    padding: 10px;
+    background-color: #3F7FBF;
+    background-image: linear-gradient #249AA7;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+     background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+}
+
+.Allison {
+    border: 3px solid #3F7FBF;
+    margin: 10px;
+}
+
+.Diego {
+    border: 3px solid #3F7FBF;
+    margin: 10px;
+}
+
+.Luther {
+    border: 3px solid #3F7FBF;
+    margin: 10px;
+}
+
+p {
+    grid-column: span 9;
+}
+
+footer {
+    background-color: #ff0000;
+    grid-column: span 12;
+    color: #3F7FBF;
+    border-top: 3px solid #3F7FBF;
+    }
