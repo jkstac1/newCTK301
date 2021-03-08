@@ -7,7 +7,7 @@ body {
     margin: 1em auto;
     padding: 0;
     width: 900px;
-    border: 3px solid #3F7FBF;
+    border: 5px solid #3F7FBF;
     background-color: #ffffff;
     display: grid;
 }
@@ -80,8 +80,9 @@ nav li a {
     float: right;
 }
 
-.pp2 {
-     grid-column: span 9;
+.pp1 {
+    grid-column: span 9;
+    margin-left: 20px;
 }
 
 footer {

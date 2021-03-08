@@ -24,7 +24,6 @@ body {
 h1 {
     color: #ffffff; 
     grid-column: span 12;
-    background-color: #3F7FBF;
     padding: 25px;
     font-style: italic;
     font-weight: normal;
@@ -33,7 +32,6 @@ h1 {
 
 h2 {
     font: helvetica;
-    font-weight: bold;
     border-bottom: 3.5px solid #000000;
     border-color: #3F7FBF;
     margin-bottom: 30px; 
@@ -41,7 +39,7 @@ h2 {
     text-align: left;
     padding: 10px;
     color: #3F7FBF;
-    grid-column: span 3;
+    grid-column: span 12;
     font-weight: normal;
 }
 
@@ -114,4 +112,37 @@ footer {
 .p4 {
     margin-left: 13px;
     padding: 8px;
+}
+
+----
+
+.Adademy {
+    border: 3px solid #3F7FBF;
+    float: right;
+}
+
+.pp1 {
+    grid-column: span 9;
+    margin-left: 20px;
+}
+
+---
+
+.Allison {
+    border: 3px solid #3F7FBF;
+    margin: 10px;
+}
+
+.Diego {
+    border: 3px solid #3F7FBF;
+    margin: 10px;
+}
+
+.Luther {
+    border: 3px solid #3F7FBF;
+    margin: 10px;
+}
+
+p {
+    grid-column: span 9;
 }
