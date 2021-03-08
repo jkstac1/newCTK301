@@ -27,6 +27,16 @@ h1 {
     background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
 }
 
+.main {
+    font-family: Helvetica;
+    color: #ffffff; 
+    grid-column: span 12;
+    padding: 25px;
+    font-style: italic;
+    font-weight: normal;
+    background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+}
+
 h2 {
     font: helvetica;
     border-bottom: 3.5px solid #3F7FBF;
