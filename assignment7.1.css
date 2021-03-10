@@ -7,7 +7,7 @@ body {
 
 
 #wrapper {
-    margin: 1em auto;
+    margin: none;
     padding: 0;
     width: 900px;
     border: 5px solid #3F7FBF;
@@ -27,20 +27,20 @@ h1 {
     padding: 25px;
     font-style: italic;
     font-weight: normal;
-     background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+    background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+    margin: none;
 }
 
 h2 {
     font: helvetica;
     border-bottom: 3.5px solid #000000;
     border-color: #3F7FBF;
-    margin-bottom: 30px; 
-    margin-left: 10px;
     text-align: left;
     padding: 10px;
     color: #3F7FBF;
     grid-column: span 12;
     font-weight: normal;
+    margin: none;
 }
 
 .p1 {
@@ -69,7 +69,7 @@ nav li {
 }
 
 nav li a:hover {
-    background-color: #ffff00;
+    background-image: linear-gradient(to top, yellow, white);
 }
 
 nav li a {

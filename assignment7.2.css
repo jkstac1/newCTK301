@@ -4,7 +4,7 @@ body {
 
 
 #wrapper {
-    margin: 1em auto;
+    margin: none;
     padding: 0;
     width: 900px;
     border: 5px solid #3F7FBF;
@@ -30,13 +30,12 @@ h1 {
 h2 {
     font: helvetica;
     border-bottom: 3.5px solid #3F7FBF;
-    margin-bottom: 30px; 
-    margin-left: 10px;
     text-align: left;
     padding: 10px;
     color: #3F7FBF;
     grid-column: span 12;
     font-weight: normal;
+    margin: none;
 }
 
 nav {
