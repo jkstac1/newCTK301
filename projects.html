@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+      <img src="mytitlebar copy.png">
+    <title>Photos</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<style>
+    
+#container {
+    display: grid;
+    width: 1200px;
+    margin: 24px auto;
+    padding: 24px;
+    background-color: white;
+    grid-template-columns: repeat(12,1fr);
+    grid-column-gap; 24px;
+    }
+    
+header {
+    grid-column: span 12;
+    padding-left: 24px;
+    margin-bottom: 24px;
+    }
+    
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    grid-column: 9;
+    }
+    
+.roundedbox {
+    padding: 10px;
+    border: 3px solid black;
+    background-color: #ccc;
+    border-radius:24px;
+    }
+
+.dropshadowbox {
+    padding: 10px;
+    width: 250px;
+    border: 3px solid #999;
+    background-color: #ccc;
+    box-shadow: 10px 10px 10px #666;
+    }
+    
+nav {
+    grid-column: span 12;
+    font-family: 'Train One', cursive;
+    font-size: 40px;
+    word-spacing: 1.5em;
+    text-align: center;
+    padding: 10px;
+    }
+    
+main {
+    grid-column: span 12;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+    padding: 80px;
+    }
+
+section {
+       grid-column: span 4;
+    }
+    
+@font-face {
+    font-family: 'Train One', cursive;
+        src: url('https://fonts.google.com/specimen/Train+One#standard-styles');
+    }
+    
+nav a:link {
+    color: aqua;
+    text-decoration: none;
+    
+    }
+
+nav a:visited {
+    color: aqua;
+    }
+    
+nav a:hover {
+    color: yellow;
+    }
+
+a:link {
+    color: aqua;  
+    }
+    
+a:visited {
+    color: aqua;
+    }
+    
+aside {
+    grid-column: span 4;
+    background-color: azure;
+    padding: 10px;
+    font-size: 1.3em;
+    }
+    
+footer {
+    grid-column: span 12;
+    border-top: dashed #000000;
+    margin-top: 10px;
+    padding-top: 5px;
+    color: white; 
+    font-weight: normal; 
+    border: 1px solid #000000; 
+    margin: 0px; 
+    padding: 20px; 
+    background-color: #60B5CE; 
+    font-style: italic; 
+    font-weight: 0; 
+    font-size: 18px; 
+    text-align: center;
+    }
+
+</style>
+<html>
+<body>
+    <div id="container">
+    <header>
+    </header>
+    <nav>
+<a href="new.html">Home</a>
+<a href="resume.html">Resume</a>
+<a href="projects.html">Projects</a>
+    </nav>
+
+<main>
+    <section class="dropshadowbox">
+<h2>Project 1</h2>
+<p>This project was something that stood out to me tremendously beacuse I was very into UX/UI design. I was excited to create my first prototype and mess around with the fonts and colors to create something unique.</p>
+    </section>
+<section class="dropshadowbox">
+<h2>Project 2</h2>
+<p>I had  alot of fun with my visual arts class. This is where I was able to mess around with fonts and colors along with symbols to create a voting flyer. The best part was that it was during the election so it was the perfect time to do so.</p>
+    </section> 
+<section class="dropshadowbox">
+<h2>Project 3</h2>
+<p>My final project was testing my visual competence when it came to recreating images. I have a deep love for Freddie Mercury and for one of my visual arts class I was able to successfully recreate one of my favorite moments of his and add my own visual literacy to it.</p>
+    </section>
+ 
+</main>
+   <footer>Copyright by Jordyn Stack | Created April 5, 2021 | Visit me on <a href="#">Facebook</a> and 
+       
+<a href="https://instagram.com" target="_blank" class="bi bi-instagram"></a>
+    
+    </footer>
+    </div>
+  </body>
+</html>
